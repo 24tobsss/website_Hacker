@@ -1,0 +1,8 @@
+[2025-05-01 10:42:19.368115] SLOWLORIS: 200 Verbindungen
+[2025-05-01 10:43:14.501674] DDOS: Gestartet
+[2025-05-01 11:54:49.245972] SQL_INJECTION: Tested with 3 payloads
+[2025-05-01 11:56:42.114956] PORTSCAN: Open ports: 21, 80, 443, 8080
+[2025-05-01 11:56:49.123360] PORT_FLOOD: Port 443
+[2025-05-01 11:57:59.836370] WPSCAN: Results in logs/wpscan_https_realschule-benrath.de_.txt
+[2025-05-01 11:58:04.490538] SQL_INJECTION: Tested with 3 payloads
+[2025-05-01 11:58:33.736070] SQL_INJECTION: Tested with 3 payloads

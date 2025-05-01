@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!DOCTYPE niktoscans SYSTEM "/var/lib/nikto/docs/nikto.dtd">
+<niktoscans>
+<niktoscan hoststest="0" options="-h https://realschule-benrath.de/ -output logs/nikto_https_realschule-benrath.de_.xml -Format xml" version="2.5.0" scanstart="Thu May  1 11:57:07 2025" scanend="Wed Dec 31 19:00:00 1969" scanelapsed=" seconds" nxmlversion="1.2">
+
+<scandetails targetip="81.169.145.150" targethostname="realschule-benrath.de" targetport="443" targetbanner="Apache/2.4.63 (Unix)" starttime="2025-05-01 11:57:14" sitename="https://realschule-benrath.de:443/" siteip="https://81.169.145.150:443/" hostheader="realschule-benrath.de" errors="0" checks="6954">
+<ssl ciphers="TLS_AES_256_GCM_SHA384" issuers="/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=Encryption Everywhere DV TLS CA - G2" info="/CN=realschule-benrath.de" altnames="realschule-benrath.de, www.realschule-benrath.de" />
+
+<item id="999986" method="GET">
+<description><![CDATA[/: Retrieved x-powered-by header: PHP/8.2.28.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999957" method="GET">
+<description><![CDATA[/: The anti-clickjacking X-Frame-Options header is not present.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options]]></references>
+</item>
+
+<item id="000427" method="GET">
+<description><![CDATA[/: Drupal Link header found with value: ARRAY(0x561a6b65d418).]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://www.drupal.org/]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/: Uncommon header 'x-tec-api-version' found, with contents: v1.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/: Uncommon header 'x-tec-api-origin' found, with contents: https://realschule-benrath.de.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/: Uncommon header 'x-tec-api-root' found, with contents: https://realschule-benrath.de/wp-json/tribe/events/v1/.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999970" method="GET">
+<description><![CDATA[/: The site uses TLS and the Strict-Transport-Security HTTP header is not defined.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security]]></references>
+</item>
+
+<item id="999103" method="GET">
+<description><![CDATA[/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/ZgS5bTyZ.: Uncommon header 'x-redirect-by' found, with contents: WordPress.]]></description>
+<uri><![CDATA[/ZgS5bTyZ.]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/ZgS5bTyZ.]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/ZgS5bTyZ.]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<statistics elapsed="190" itemsfound="9" itemstested="6954" endtime="2025-05-01 12:00:24" />
+</scandetails>
+</niktoscan>
+
+
+</niktoscans>
+<niktoscan hoststest="0" options="-h https://realschule-benrath.de/ -output logs/nikto_https_realschule-benrath.de_.xml -Format xml" version="2.5.0" scanstart="Thu May  1 12:00:59 2025" scanend="Wed Dec 31 19:00:00 1969" scanelapsed=" seconds" nxmlversion="1.2">
+
+<scandetails targetip="81.169.145.150" targethostname="realschule-benrath.de" targetport="443" targetbanner="Apache/2.4.63 (Unix)" starttime="2025-05-01 12:01:02" sitename="https://realschule-benrath.de:443/" siteip="https://81.169.145.150:443/" hostheader="realschule-benrath.de" errors="0" checks="6954">
+<ssl ciphers="TLS_AES_256_GCM_SHA384" issuers="/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=Encryption Everywhere DV TLS CA - G2" info="/CN=realschule-benrath.de" altnames="realschule-benrath.de, www.realschule-benrath.de" />
+
+<item id="999986" method="GET">
+<description><![CDATA[/: Retrieved x-powered-by header: PHP/8.2.28.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999957" method="GET">
+<description><![CDATA[/: The anti-clickjacking X-Frame-Options header is not present.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options]]></references>
+</item>
+
+<item id="000427" method="GET">
+<description><![CDATA[/: Drupal Link header found with value: ARRAY(0x55bb2f7cd6c8).]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://www.drupal.org/]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/: Uncommon header 'x-tec-api-origin' found, with contents: https://realschule-benrath.de.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/: Uncommon header 'x-tec-api-root' found, with contents: https://realschule-benrath.de/wp-json/tribe/events/v1/.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/: Uncommon header 'x-tec-api-version' found, with contents: v1.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999970" method="GET">
+<description><![CDATA[/: The site uses TLS and the Strict-Transport-Security HTTP header is not defined.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security]]></references>
+</item>
+
+<item id="999103" method="GET">
+<description><![CDATA[/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://realschule-benrath.de:443/]]></namelink>
+<iplink><![CDATA[https://81.169.145.150:443/]]></iplink>
+<references><![CDATA[https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/]]></references>
+</item>
+
+<statistics elapsed="48" itemsfound="8" itemstested="6954" endtime="2025-05-01 12:01:50" />
+</scandetails>
+</niktoscan>
+
+
+</niktoscans>
